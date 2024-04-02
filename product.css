@@ -1,0 +1,226 @@
+
+
+.carousel-container {
+    width: 600px; /* Set the width of the carousel */
+    overflow: hidden;
+    margin: 50px 370px 0px;
+    border-radius: 70px;
+}
+
+.carousel {
+    display: flex;
+    width: 1000px; /* Total width of all slides */
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 600px; /* Set the width of each slide */
+    height: 300px; /* Set the height of each slide */
+    text-align: center;
+    line-height: 200px;
+    background-color: greenyellow;
+    float: right;
+    justify-content: center;
+    border-color: #88523c;
+}
+.slide img{
+    width:100%;
+    display: inline-flex;
+
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 290px;
+    float:left;
+    justify-content: space-evenly;
+    color:maroon;
+    background-color: white;
+
+}
+
+.product img {
+    max-width: 125%;
+    height: 210px;
+
+}
+h1{
+    background-size: cover;
+    font-family: 'Rajdhani',sans-serif;
+    color: #88523c;
+    font-size: 30px;
+    font-weight: 3000;
+    filter:drop-shadow(2px 2px 2px white);
+    text-align: center;
+    text-justify: inter-word;
+}
+
+
+
+.nuts{
+
+    border-radius: 7px;
+    background: linear-gradient(250deg, #88523c, #292321);
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Rajdhani',sans-serif;
+    width: 310px;
+    font-size: 18px;
+    font-weight:700;
+    cursor: cursor;
+    border: solid;
+    position: static;
+    opacity: 90%;
+    display: inline-block;
+    margin-bottom: 10px /* space at the bottom of each button */;
+    margin-left: 200px;
+    
+}
+
+.spices{
+
+    border-radius: 7px;
+    background: linear-gradient(250deg, #88523c, #292321);
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Rajdhani',sans-serif;
+    width: 310px;
+    font-size: 18px;
+    font-weight:700;
+    cursor: cursor;
+    border: solid;
+    position: static;
+    opacity: 90%;
+    display: inline-block;
+    margin-bottom: 10px /* space at the bottom of each button */;
+    margin-left: 200px;
+     
+    
+}
+
+
+.dates{
+
+    border-radius: 7px;
+    background: linear-gradient(250deg, #88523c, #292321);
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Rajdhani',sans-serif;
+    width: 310px;
+    font-size: 18px;
+    font-weight:700;
+    cursor: cursor;
+    border: solid;
+    position: static;
+    opacity: 90%;
+    display: inline-block;
+    margin-bottom: 10px /* space at the bottom of each button */;
+    margin-left: 200px;
+   
+   
+    
+}
+
+
+.dryfruits{
+
+    border-radius: 7px;
+    background: linear-gradient(250deg, #88523c, #292321);
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Rajdhani',sans-serif;
+    width: 310px;
+    font-size: 18px;
+    font-weight:700;
+    cursor: cursor;
+    border: solid;
+    position: static;
+    opacity: 90%;
+    display: inline-block;
+    margin-bottom: 10px /* space at the bottom of each button */;
+    margin-left: 200px;
+   
+
+    
+}
+
+
+.seeds{
+
+    border-radius: 7px;
+    background: linear-gradient(250deg, #88523c, #292321);
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Rajdhani',sans-serif;
+    width: 310px;
+    font-size: 18px;
+    font-weight:700;
+    cursor: cursor;
+    border: solid;
+    position: static;
+    opacity: 90%;
+    display: inline-block;
+    margin-bottom: 10px /* space at the bottom of each button */;
+    margin-left: 200px;
+   
+
+    
+}
+
+
+.groceryitems{
+
+    border-radius: 7px;
+    background: linear-gradient(250deg, #88523c, #292321);
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Rajdhani',sans-serif;
+    width: 310px;
+    font-size: 18px;
+    font-weight:700;
+    cursor: cursor;
+    border: solid;
+    position: static;
+    opacity: 90%;
+    display: inline-block;
+    margin-bottom: 10px /* space at the bottom of each button */;
+    margin-left: 200px;
+   
+    
+}
+
+
+

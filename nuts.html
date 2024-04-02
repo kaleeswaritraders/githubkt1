@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nuts</title>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2917/2917995.png" type="image/icon type">
+    
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide"><img src="https://img.freepik.com/free-photo/cashew_1203-3614.jpg?size=626&ext=jpg&ga=GA1.1.1985134045.1703301157&semt=ais"></div>
+            <div class="slide"><img src="https://img.freepik.com/free-photo/side-view-bowl-with-walnuts-rustic_141793-6221.jpg?size=626&ext=jpg&ga=GA1.1.1985134045.1703301157&semt=ais"></div>
+            <div class="slide"><img src="https://img.freepik.com/free-photo/wooden-bowl-with-almond-black-background-top-view_1150-37669.jpg?w=740&t=st=1704387558~exp=1704388158~hmac=c98dbb6750ed8d7d3aa9fcf506f11ef9cc4563cca09cecd9f025c07be6a9a9eb"></div>
+            <div class="slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd_Jq6_EoiiMWv8t5nmMo6WlVVBR4UxdNdA&usqp=CAU"></div>
+            <div class="slide"><img src="https://nyspiceshop.com/cdn/shop/articles/TYPES_OF_NUTS_AND_SEEDS_AND_THEIR_HEALTH_BENEFITS_2000x.jpeg?v=1568991324"></div>
+            <link rel="stylesheet" href="nuts.css">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const carousel = document.querySelector('.carousel');
+        let currentIndex = 0;
+        const totalSlides = 5; // Set the total number of slides
+        const slideWidth = 600; // Set the width of each slide
+        const interval = 3000; // Set the interval for automatic scrolling in milliseconds (3 seconds)
+
+       function autoScroll() {
+       currentIndex = (currentIndex + 1) % totalSlides;
+       updateCarousel();
+    }
+
+      function updateCarousel() {
+      const translateXValue = -currentIndex * slideWidth;
+      carousel.style.transform = `translateX(${translateXValue}px)`;
+    }
+    setInterval(autoScroll, interval); // Automatically scroll every 2 seconds (adjust the interval as needed)
+    </script>
+    
+
+
+       <script type="text/javascript" src='navbar.js'></script>
+    
+    <div>
+        <h1 >PRODUCT CATALOG</h1>
+    </div>
+    
+        <div class="catalog">
+            <div class="product">
+                <img src="https://storage.googleapis.com/shy-pub/67951/1633612264498_cashew.png" alt="Cashew W240">
+                <h2>CASHEWS W240</h2>
+                <p class="price"><h4>50GMS ₹ 0.00<br>
+                                     100GMS ₹ 110.00<br>
+                                     250GMS ₹ 230.00<br>
+                                     500GMS ₹ 450.00 <br>
+                                     1KG ₹ 900.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product">
+                <img src="https://royaldryfruits.biz/wp-content/uploads/2021/09/CASHEW.jpg" alt="Cashew W320">
+                <h2>CASHEWS W320</h2>
+                <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product">
+                <img src="https://maharanafoods.com/wp-content/uploads/2021/01/Almond.jpg" alt="Almond Regular">
+                <h2>ALMONDS REGULAR</h2>
+                <p class="Price" >
+                    <h4>50GMS  ₹ 45.00<br>
+                        100GMS ₹ 80.00<br>
+                        250GMS ₹ 180.00<br>
+                        500GMS ₹ 360.00<br>
+                        1KG    ₹ 720.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+        
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsdoGV0pJhelrW7k0Yn3BK7vr_c0Z-AfDlQ&usqp=CAU" alt="Almonds Jumbo">
+                <h2>ALMONDS JUMBO</h2>
+                <p class="price"><h4>50GMS ₹ 55.00<br>
+                                     100GMS ₹ 100.00<br>
+                                     250GMS ₹ 230.00<br>
+                                     500GMS ₹ 450.00<br>
+                                     1KG ₹ 880.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+        
+            <div class="product">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/336500873/XA/LM/OE/193133747/2-piece-split-cashew-nuts-1000x1000.jpg" alt="Cashew Split">
+                <h2>CASHEW SPLIT</h2>
+                <p class="price"><h4>50GMS ₹ 0.00<br>
+                                     100GMS ₹ 0.00<br>
+                                     250GMS ₹ 0.00<br>
+                                     500GMS ₹ 0.00<br>
+                                     1KG ₹ 0.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5Rjh_svHjWNJ6IRevqfR_OFkB3eBFPyClA&usqp=CAU" alt="Pista Plain Anc Irani">
+                <h2>PISTA PLAIN ANC IRANI</h2>
+                <p class="price"><h4>50GMS ₹ 110.00<br>
+                                     100GMS ₹ 200.00<br>
+                                     250GMS ₹ 470.00<br>
+                                     500GMS ₹ 980.00<br>
+                                     1KG ₹ 1850.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+        
+            <div class="product">
+                <img src="https://narayanjigajakwale.in/wp-content/uploads/2022/10/a596-Pista-1-0-1-1100x1100-1.png" alt="Roasted Pista">
+                <h2>ROASTED PISTA</h2>
+                <p class="price"><h4>50GMS ₹ 70.00<br> 
+                                     100GMS ₹ 130.00<br>
+                                     250GMS ₹.0.00 <br>
+                                     500GMS ₹.0.00 <br>
+                                     1KG ₹ 1000.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYmkimrmupYycn0Ee_ZyDTRLw20X7onRQXzg&usqp=CAU" alt="Walnuts">
+                <h2>WALNUTS</h2>
+                <p class="price"><h4>50GMS ₹ 0.00<br>
+                                     100GMS ₹ 0.00<br>
+                                     250GMS ₹ 0.00<br>
+                                     500GMS ₹ 0.00<br>
+                                     1KG ₹ 0.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+                <div class="product">
+                <img src="https://thebellyrulesthemind.net/wp-content/uploads/2021/02/Roasted-cashew-nuts-3-flavors-5-720x720.png" alt="Roasted Cashews (Flavoured)">
+                <h2>ROASTED CASHEWS (FLAVOURED)</h2>
+                <p class="price"><h4>50GMS ₹ 0.00<br>
+                                     100GMS ₹ 120.00<br>
+                                     250GMS ₹ 250.00<br>
+                                     500GMS ₹ 0.00<br>
+                                     1KG ₹ 0.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://mylaporeganapathys.com/wp-content/uploads/2023/10/image-2.png" alt="Roasted Peanut">
+                <h2>ROASTED PEANUT</h2>
+                <p class="price"><h4>50GMS ₹ 0.00<br>
+                                     100GMS ₹ 0.00<br>
+                                     250GMS ₹ 0.00<br>
+                                     500GMS ₹ 0.00<br>
+                                     1KG ₹ 160.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+        
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvgV9yaHiUwuo2pC7A_GRfhnXrIyPqfOrCdg&usqp=CAU" alt="Hazelnut Premium">
+                <h2>HAZELNUT PREMIUM</h2>
+                <p class="price"><h4>50GMS ₹ 0.00<br>
+                                     100 GMS ₹ 180.00<br>
+                                     250GMS ₹ 360.00<br>
+                                     500GMS ₹ 720.00<br>
+                                     1KG ₹ 1400.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+        
+            <div class="product">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/9/342225352/VS/VM/QV/13355507/40-50-medium-brown-whole-blanch-roasted-peanut.jpeg" alt="Roasted White Peanut">
+                <h2>ROASTED WHITE PEANUT</h2>
+                <p class="price"><h4>50GMS ₹ 0.00<br>
+                                     100GMS ₹ 0.00<br>
+                                     250GMS ₹ 60.00<br>
+                                     500GMS ₹ 0.00<br>
+                                     1KG ₹ 160.00</h4></p>
+                <button>Add to Cart</button>
+            </div>
+        
+            </div>
+
+        </body>
+        </html>
+
+            
+            

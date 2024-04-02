@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Catalog</title>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2917/2917995.png" type="image/icon type">
+    
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide"><img src="https://www.worldatlas.com/r/w1200/upload/e9/5c/89/shutterstock-268449350.jpg"></div>
+            <div class="slide"><img src="https://img.freepik.com/premium-photo/spices-black-background_911620-1316.jpg"></div>
+            <div class="slide"><img src="https://media.istockphoto.com/id/523458571/photo/organic-healthy-assorted-dried-fruit.jpg?s=612x612&w=0&k=20&c=PuuQap2lSgZNoZO0OPyiEQr0Qy9hvX12m8xHlNJ54FU="></div>
+            <div class="slide"><img src="https://i.pinimg.com/originals/e6/47/bc/e647bcdffb21b67bbd659b43083fe422.jpg"></div>
+            <div class="slide"><img src="https://www.justgotochef.com/uploads/1567414061-SpicesLanding.png"></div>
+            <link rel="stylesheet" href="product.css">
+        </div>
+    </div>
+
+   
+    <div>
+        <h1 >PRODUCT CATALOG</h1>
+        </div>
+    
+    
+    
+    <a href="nuts.html"><button class="nuts"><span>N U T S</span></button></a>
+
+    <a href="spices.html"><button class="spices"><span>S P I C E S</span></button></a>
+
+    <a href="dates.html"><button class="dates"><span>D A T E S</span></button></a>
+
+    <a href="dryfruits.html"><button class="dryfruits"><span>D R Y F R U I T S</span></button></a>
+
+    <a href="seeds.html"><button class="seeds"><span>S E E D S</span></button></a>
+
+    <a href="groceryitems.html"><button class="groceryitems"><span>G R O C E R Y I T E M S</span></button></a>
+
+
+    <script type="text/javascript">
+        const carousel = document.querySelector('.carousel');
+        let currentIndex = 0;
+        const totalSlides = 5; // Set the total number of slides
+        const slideWidth = 600; // Set the width of each slide
+        const interval = 3000; // Set the interval for automatic scrolling in milliseconds (3 seconds)
+
+       function autoScroll() {
+       currentIndex = (currentIndex + 1) % totalSlides;
+       updateCarousel();
+    }
+
+      function updateCarousel() {
+      const translateXValue = -currentIndex * slideWidth;
+      carousel.style.transform = `translateX(${translateXValue}px)`;
+    }
+    setInterval(autoScroll, interval); // Automatically scroll every 2 seconds (adjust the interval as needed)
+    </script>
+    
+
+
+       <script type="text/javascript" src='navbar.js'></script>
+</body>
+</html>

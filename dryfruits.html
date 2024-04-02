@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dryfruits</title>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2917/2917995.png" type="image/icon type">
+    
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide"><img src="https://www.worldatlas.com/r/w1200/upload/e9/5c/89/shutterstock-268449350.jpg"></div>
+            <div class="slide"><img src="https://img.freepik.com/premium-photo/spices-black-background_911620-1316.jpg"></div>
+            <div class="slide"><img src="https://media.istockphoto.com/id/523458571/photo/organic-healthy-assorted-dried-fruit.jpg?s=612x612&w=0&k=20&c=PuuQap2lSgZNoZO0OPyiEQr0Qy9hvX12m8xHlNJ54FU="></div>
+            <div class="slide"><img src="https://i.pinimg.com/originals/e6/47/bc/e647bcdffb21b67bbd659b43083fe422.jpg"></div>
+            <div class="slide"><img src="https://www.justgotochef.com/uploads/1567414061-SpicesLanding.png"></div>
+            <link rel="stylesheet" href="dryfruits.css">
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const carousel = document.querySelector('.carousel');
+        let currentIndex = 0;
+        const totalSlides = 5; // Set the total number of slides
+        const slideWidth = 600; // Set the width of each slide
+        const interval = 3000; // Set the interval for automatic scrolling in milliseconds (3 seconds)
+
+       function autoScroll() {
+       currentIndex = (currentIndex + 1) % totalSlides;
+       updateCarousel();
+    }
+
+      function updateCarousel() {
+      const translateXValue = -currentIndex * slideWidth;
+      carousel.style.transform = `translateX(${translateXValue}px)`;
+    }
+    setInterval(autoScroll, interval); // Automatically scroll every 2 seconds (adjust the interval as needed)
+    </script>
+    
+
+
+       <script type="text/javascript" src='navbar.js'></script>
+
+    <div>
+        <h1 >PRODUCT CATALOG</h1>
+        </div>
+    
+        <div class="catalog">  
+        <div class="product">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/9/341696292/YX/JA/OR/3516446/250gm-dried-seed-black-raisins-500x500.jpeg" alt="Black Raisins">
+        <h2>BLACK RAISINS</h2>
+        <p class="price"><h4>50GMS  ₹ 0.00<br>
+                             100GMS ₹ 55.00<br>
+                             250GMS ₹ 110.00<br>
+                             500GMS  ₹ 0.00<br>
+                             1KG ₹ 400.00</h4></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnsG857_7xMLAAA2IN8N-asApHzkOTsB9mZQ&usqp=CAU" alt="Black Raisins Seedless">
+        <h2>BLACK RAISINS SEEDLESS</h2>
+        <p class="price"><h4>50GMS  ₹ 0.00<br>
+                             100GMS ₹ 55.00<br>
+                             250GMS ₹ 110.00<br>
+                             500GMS  ₹ 0.00<br>
+                             1KG ₹ 400.00</h4></p>
+        <button>Add to Cart</button>
+    </div>
+
+
+    <div class="product">
+        <img src="https://alphonsomango.in/cdn/shop/files/indian-raisin-or-munakka-or-kishmish-or-manukka-alphonsomango-in-4_1280x.jpg?v=1699684086" alt="Kishmish">
+        <h2>KISHMISH</h2>
+        <p class="price"><h4>50GMS  ₹ 0.00<br>
+                             100GMS ₹ 45.00<br>
+                             250GMS ₹ 0.00<br>
+                             500GMS  ₹ 0.00<br>
+                             1KG ₹ 0.00</h4></p>
+        <button>Add to Cart</button>
+
+    </div>
+
+    <div class="catalog">
+        <div class="product">
+            <img src="https://www.myvillageshop.com/cdn/shop/files/driedamlacandy_2500x.jpg?v=1691131490" alt="Dried Alma">
+            <h2>DRIED ALMA</h2>
+            <p class="Price" ><h4>50GMS  ₹ 0.00<br>
+                                  100GMS ₹ 0.00<br>
+                                  250GMS ₹ 0.00<br>
+                                  500GMS  ₹ 0.00<br>
+                                  1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpo8qiwJ5DnW8gsp86wA2HwGwfasWlkB7nkw&usqp=CAU" alt="Dried Apricot">
+            <h2>DRIED APRICOT</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 160.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK0iyWOmhgaYW51NV5DLlx0-DcXbmiornBng&usqp=CAU" alt="Turkel Apricot">
+            <h2>TURKEL APRICOT</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 200.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://royalfantasy.in/cdn/shop/products/Kiwi-1.jpg?v=1629719232" alt="Dried Kiwi">
+            <h2>DRIED KIWI</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 155.00
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiZ74pkE5z3ltoNxKlGw8N8QdiCqDtZx_rCQ&usqp=CAU" alt="Blackberry">
+            <h2>BLACKBERRY</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 160.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://media.post.rvohealth.io/wp-content/uploads/sites/3/2020/02/blueberries-1.jpg" alt="Blue Berry">
+            <h2>BLUE BERRY</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 430.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://www.excaliburdehydrator-recipes.com/wp-content/uploads/2020/01/Mandarin-Oranges-800x800.jpg" alt="Dried Orange">
+            <h2>DRIED ORANGE</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Ka2DgUN7ECB_cD70K6b3d6xihSiRsGEVAA&usqp=CAU" alt="Dried Pomelo">
+            <h2>DRIED POMELO</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://w7.pngwing.com/pngs/438/546/png-transparent-cranberry-food-drying-cerasus-dried-fruit-cherry-thumbnail.png" alt="Dried Cherry">
+            <h2>DRIED CHERRY</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 200.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://royalfantasy.in/cdn/shop/products/Mango-1.jpg?v=1627638488" alt="Dried Mango">
+            <h2>DRIED MANGO</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 180.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://media.istockphoto.com/id/182490386/photo/pile-of-dried-peaches.jpg?s=612x612&w=0&k=20&c=ttnSjgomAN2UbI2lGZq5R3ClQXPHFja-8fNEjjVK55E=" alt="Dried Peach">
+            <h2>DRIED PEACH</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 170.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00 </h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbQQ4SMKsdCyvZFteDlKzOElPRfW0No7RSQ&usqp=CAU" alt="Dried Cranberry">
+            <h2>DRIED CRANBERRY</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 210.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://cdn.shopaccino.com/adfs/products/pitted-california-prunces-seedless-907540_m.jpg?v=486" alt="Dried Prunes">
+            <h2>DRIED PRUNES</h2>
+            <p class="price"><h4>50GMS  ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 200.00<br>
+                                 500GMS  ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+            <button>Add to Cart</button>
+        </div>
+
+        </div>
+        
+    </body>
+    </html>
+        
+    

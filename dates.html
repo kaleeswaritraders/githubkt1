@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dates</title>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2917/2917995.png" type="image/icon type">
+    
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide"><img src="https://www.worldatlas.com/r/w1200/upload/e9/5c/89/shutterstock-268449350.jpg"></div>
+            <div class="slide"><img src="https://img.freepik.com/premium-photo/spices-black-background_911620-1316.jpg"></div>
+            <div class="slide"><img src="https://media.istockphoto.com/id/523458571/photo/organic-healthy-assorted-dried-fruit.jpg?s=612x612&w=0&k=20&c=PuuQap2lSgZNoZO0OPyiEQr0Qy9hvX12m8xHlNJ54FU="></div>
+            <div class="slide"><img src="https://i.pinimg.com/originals/e6/47/bc/e647bcdffb21b67bbd659b43083fe422.jpg"></div>
+            <div class="slide"><img src="https://www.justgotochef.com/uploads/1567414061-SpicesLanding.png"></div>
+            <link rel="stylesheet" href="dates.css">
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const carousel = document.querySelector('.carousel');
+        let currentIndex = 0;
+        const totalSlides = 5; // Set the total number of slides
+        const slideWidth = 600; // Set the width of each slide
+        const interval = 3000; // Set the interval for automatic scrolling in milliseconds (3 seconds)
+
+       function autoScroll() {
+       currentIndex = (currentIndex + 1) % totalSlides;
+       updateCarousel();
+    }
+
+      function updateCarousel() {
+      const translateXValue = -currentIndex * slideWidth;
+      carousel.style.transform = `translateX(${translateXValue}px)`;
+    }
+    setInterval(autoScroll, interval); // Automatically scroll every 2 seconds (adjust the interval as needed)
+    </script>
+    
+
+
+       <script type="text/javascript" src='navbar.js'></script>
+    
+    <div>
+        <h1 >PRODUCT CATALOG</h1>
+        </div>
+
+        <div class="catalog">
+        <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UeZ3glwPaJlvDtQRACKCdd4SwaDwjVqvZA&usqp=CAU" alt="Kimia Plastic Box">
+        <h2>KIMIA PLASTIC BOX</h2>
+        <p class="price"><h4>50GMS ₹ 0.00<br>
+                             100GMS ₹ 110.00<br>
+                             250GMS ₹ 0.00<br>
+                             500GMS ₹ 150.00<br>
+                             1KG ₹ 0.00 </h4></p>
+        <button>Add to Cart</button>
+        </div>        
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRwwCUfswIPEzg_pOII3v5k2aVXl2O7XZfwA&usqp=CAU" alt="Safawi Arsh Dates">
+            <h2>SAFAWI ARSH DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 360.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/keekmfk0/nut-dry-fruit/5/r/w/400-mabroom-400g-festive-gift-box-arsh-original-imafv3h6y6gfh94r.jpeg?q=90" alt="Mabroom Arsh Dates">
+            <h2>MABROOM ARSH DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 500.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/kiw1dow0-0/nut-dry-fruit/n/s/x/ajwa-400g-festive-gift-box-arsh-original-imafyknmsgban2vd.jpeg?q=90" alt="Ajwa Arsh Dates">
+            <h2>AJWA ARSH DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 750.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGas5G5inPu1tln4TpnBFaucbDFO8faRu1ng&usqp=CAU" alt="Crown Fard Dates">
+            <h2>CROWN FARD DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 200.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2022/5/OZ/VO/ZD/37364213/product-500x500.jpg" alt="Zahidi / Golden Dates">
+            <h2>ZAHIDI / GOLDEN DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 110.00
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://www.jiomart.com/images/product/original/rvlgkec7k9/reem-safawi-dates-rich-in-calcium-and-phosphorus-1-kg-product-images-orvlgkec7k9-p603916012-0-202308170728.jpg?im=Resize=(420,420)" alt="Safawi box">
+            <h2>SAFAWI BOX</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 750.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+    
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhNu2Y0zF2R5dpvzS-MjlfgHBP5sUw1BdjpQ&usqp=CAU" alt="Medjuol Dates">
+            <h2>MEDJUOL DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://i0.wp.com/selfiefamily.com/wp-content/uploads/2023/05/BARARI-TUNISIAN-DATES-500-GM-2.jpg?fit=1024%2C1024&ssl=1" alt="Barari Tunisian Dates">
+            <h2>BARARI TUNISIAN DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://mylaporeganapathys.com/wp-content/uploads/2020/09/Black-Dates-min.jpg" alt="Black Dates">
+            <h2>BLACK DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 150.00<br>
+                                 1KG ₹ 300.00 </h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+
+        <div class="product">
+            <img src="https://i0.wp.com/www.nutshouse.in/wp-content/uploads/2023/05/20230219_232127.jpg" alt="Brown Dates">
+            <h2>BROWN DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 100.00
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3X9J_gQ2km_F41eOG_eGE_EAHbyJJvVQ4lg&usqp=CAU" alt="Brown Seedless Dates">
+            <h2>BROWN SEEDLESS DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 75.00
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://markstor.com/wp-content/uploads/imported/Markstor-Fresh-Omani-Dates-500-Grams-B07RKFVPCS-2.jpg" alt="Oman Black Dates">
+            <h2>OMAN BLACK DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8HWzowrkJDnkdcyx-BTZ2UzVp1LmQILDkw&usqp=CAU" alt="Iran Black Dates">
+            <h2>IRAN BLACK DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://www.luluhypermarket.in/medias/98458-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNzMyMzN8aW1hZ2UvanBlZ3xhRFF6TDJnMU9DODRPREEyTmpJMU16YzRNek0wTHprNE5EVTRMVEF4TG1wd1oxOHhNakF3VjNneE1qQXdTQXwzZGEyNTE2NTQ1MGFkMDI4YTZiZGU0MGViNWNmMGNmYTdiNTU5NDYwMWI5YTI1MTg1ODRjN2Y2YzYwNWJkOTY5" alt="Cashew Dates">
+            <h2>CASHEW DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://cdnprod.mafretailproxy.com/sys-master-root/h8d/h51/12548862902302/421796_main.jpg_480Wx480H" alt="Almond Dates">
+            <h2>ALMOND DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 0.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 0.00</h4></p>
+             <button>Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzjSz79F3hUcNBcfgKuSMO1QVALItoCDGhwA&usqp=CAU" alt="Dry Dates">
+            <h2>DRY DATES</h2>
+            <p class="price"><h4>50GMS ₹ 0.00<br>
+                                 100GMS ₹ 0.00<br>
+                                 250GMS ₹ 120.00<br>
+                                 500GMS ₹ 0.00<br>
+                                 1KG ₹ 400.00 </h4></p>
+             <button>Add to Cart</button>
+        </div>
+        
+        </div>
+    
+</body>
+</html>    

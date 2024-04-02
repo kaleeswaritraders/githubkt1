@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GroceryItems</title>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2917/2917995.png" type="image/icon type">
+    
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide"><img src="https://www.worldatlas.com/r/w1200/upload/e9/5c/89/shutterstock-268449350.jpg"></div>
+            <div class="slide"><img src="https://img.freepik.com/premium-photo/spices-black-background_911620-1316.jpg"></div>
+            <div class="slide"><img src="https://media.istockphoto.com/id/523458571/photo/organic-healthy-assorted-dried-fruit.jpg?s=612x612&w=0&k=20&c=PuuQap2lSgZNoZO0OPyiEQr0Qy9hvX12m8xHlNJ54FU="></div>
+            <div class="slide"><img src="https://i.pinimg.com/originals/e6/47/bc/e647bcdffb21b67bbd659b43083fe422.jpg"></div>
+            <div class="slide"><img src="https://www.justgotochef.com/uploads/1567414061-SpicesLanding.png"></div>
+            <link rel="stylesheet" href="groceryitems.css">
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const carousel = document.querySelector('.carousel');
+        let currentIndex = 0;
+        const totalSlides = 5; // Set the total number of slides
+        const slideWidth = 600; // Set the width of each slide
+        const interval = 3000; // Set the interval for automatic scrolling in milliseconds (3 seconds)
+
+       function autoScroll() {
+       currentIndex = (currentIndex + 1) % totalSlides;
+       updateCarousel();
+    }
+
+      function updateCarousel() {
+      const translateXValue = -currentIndex * slideWidth;
+      carousel.style.transform = `translateX(${translateXValue}px)`;
+    }
+    setInterval(autoScroll, interval); // Automatically scroll every 2 seconds (adjust the interval as needed)
+    </script>
+    
+
+
+       <script type="text/javascript" src='navbar.js'></script>
+
+    <div>
+        <h1 >PRODUCT CATALOG</h1>
+        </div>
+    
+        <div class="catalog">
+        <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4FmHnEvmGyjnObl0j0ZTVkPMPIq4y65hCwg&usqp=CAU" alt="Jeera">
+        <h2>JEERA</h2>
+        <p class="price"><h4>100GMS ₹ 80.00 | 250GMS ₹ 200.00<br>
+                         500GMS ₹ 400.00<br>
+                         1KG ₹ 800.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9_afA5pVba4d56dcvR00Vdr_a2hYCTHzWcw&usqp=CAU" alt="Vendhayam">
+        <h2>VENDHAYAM</h2>
+        <p class="price"><h4>100GMS ₹ 25.00 | 250GMS ₹ 55.00<br>
+                             500GMS ₹ 110.00<br>
+                                1KG ₹ 200.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCqPqMyzAbNcytIHdaQRwQQS5Xb8EAtKsqHw&usqp=CAU" alt="Kadugu Small and Big">
+        <h2>KADUGU SMALL AND BIG</h2>
+        <p class="price"><h4>100GMS ₹ 25.00 | 250GMS ₹ 40.00<br>
+                             500GMS ₹ 80.00<br>
+                                1KG ₹ 140.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_j_A6RzbyW3Xlxp3scAjTTqje440zGR--g&usqp=CAU" alt="Perunjeeragam">
+        <h2>PERUNJEERAGAM</h2>
+        <p class="price"><h4>100GMS ₹ 70.00 | 250GMS ₹ 150.00<br>
+                             500GMS ₹ 300.00<br>
+                                1KG ₹ 550.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.squarespace-cdn.com/content/v1/649ba621bcc46e1c8bd2eab5/1689272244103-49O4EDMMQ08M6QX1T27Y/66BBD885-C5ED-4328-A2BE-80ED3B7D3E3C.png?format=500w" alt="MayilMark Samba Ravai">
+        <h2>MAYILMARK SAMBA RAVAI</h2>
+        <p class="price"><h4>500GMS ₹ 50.00<br>
+                         1KG ₹ 100.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2022/3/UP/WC/XV/87092598/mayir-double-roasted-rava-500x500.jpg" alt="MayilMark White Ravai">
+        <h2>MAYILMARK WHITE RAVAI</h2>
+        <p class="price"><h4>500GMS ₹ 40.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://mayilmarksambaravai.com/wp-content/uploads/2018/08/chakki-fresh-atta-3-300x300.jpg" alt="Wheat Flour">
+        <h2>WHEAT FLOUR</h2>
+        <p class="price"></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://www.ritirivaaj.com/cdn/shop/products/Unpolished-Toor-Arhar-Dal-Riti-Rivaaj-Grocery.jpg?v=1624796314" alt="Toor Dhal">
+        <h2>TOOR DHAL</h2>
+        <p class="price"><h4>500GMS ₹ 95.00</h4> </p> 
+         <button>Add to Cart</button>
+    </div>
+
+
+    <div class="product">
+        <img src="https://amirthamnaturals.in/wp-content/uploads/2020/11/Kadalai-Parupu.png" alt="Kadalai Paruppu">
+        <h2>KADALAI PARUPPU</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://www.dmtraders.com/wp-content/uploads/2021/05/Green-Gram-Sprout.jpg" alt="Pacha Payaru">
+        <h2>PACHA PAYARU</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/31nh7-nHQ6S._QL70_FMwebp_.jpg" alt="Karuppu Sundal">
+        <h2>KARUPPU SUNDAL</h2>
+        <p class="price"></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOlzrQhz5vPIEIGUrsVuDc8P3y2C8HrDTYQ&usqp=CAU" alt="Vella Sundal">
+        <h2>VELLA SUNDAL</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://instagrain.in/product-images/instagrain.in/2021/07/15/844/large/avarai-white-1.png" alt="White Avarai">
+        <h2>WHITE AVARAI</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://standardcoldpressedoil.com/wp-content/uploads/2022/11/kollu-1.jpg" alt="Horse Gram (Kollu)">
+        <h2>HORSE GRAM (KOLLU)</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://selfiefamily.com/wp-content/uploads/2023/02/Pasi-Paruppu-100-Grams.jpg" alt="Paasi Paruppu">
+        <h2>PAASI PARUPPU</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReigq16FxRW1fk_QPKictuNHXdgtrgBlRc6g&usqp=CAU" alt="Black Ulundhu">
+        <h2>BLACK ULUNDHU</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://www.ulamart.com/pub/media/catalog/product/1/-/1-min.png" alt="White Ulundhu">
+        <h2>WHITE ULUNDHU</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://www.hi5mart.com/image/cache/catalog/Grocery%20Staples/sugarandsalt/Tata%20Salt%20-%20Iodized,%201%20kg%20Pouch-750x750.jpg" alt="Tata Salt">
+        <h2>TATA SALT</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX1ksSARs645_P_l8oBfnIg2KCMoEeJP4gJw&usqp=CAU" alt="Crystal Salt">
+        <h2>CRYSTAL SALT</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://cdn.shopaccino.com/edible-smart/products/rajma-red-819160_l.jpg?v=500" alt="Rajma">
+        <h2>RAJMA</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://www.vrisham.com/wp-content/uploads/2021/11/fried-gram-001.jpg" alt="Pottukadalai">
+        <h2>POTTUKADALAI</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://www.jiomart.com/images/product/original/491187227/best-farms-double-beans-500-g-product-images-o491187227-p491187227-2-202204281546.jpg?im=Resize=(420,420)" alt="Double Beans">
+        <h2>DOUBLE BEANS</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHsDgwp-413CWtbnhRu_u_yg-51xT143Blgw&usqp=CAU" alt="Thatta Payaru">
+        <h2>THATTA PAYARU</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://i.pinimg.com/736x/64/d0/15/64d0152b3192049384243054e1bcbf96.jpg" alt="White Soya">
+        <h2>WHITE SOYA</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-dWbeQ9IwonxzxTOqlhfuhF3eMfQLYniAMg&usqp=CAU" alt="Honey">
+        <h2>HONEY</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_0uVrrglOsMkL8ANh18QMYlob-0f2wZkeDA&usqp=CAU" alt="Ghee">
+        <h2>GHEE</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2021/12/XP/LY/YH/48760328/panai-karupatti-palmyra-jaggery-250x250.jpg" alt="Panai Karupatti">
+        <h2>PANAI KARUPATTI</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzdDysosT8b74_o42vR0qK8n5gd_4d---afQ&usqp=CAU" alt="Dates Syrup">
+        <h2>DATES SYRUP</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/jaggery/7/e/e/1-block-original-udangudi-karuppatti-panai-vellam-palm-jaggery-original-imagkgqmzemfkgpv.jpeg?q=90" alt="Thenai Karupatti">
+        <h2>THENAI KARUPATTI</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51G77siFYpL.jpg" alt="Nattu Sarkarai">
+        <h2>NATTU SARKARAI</h2>
+        <p class="price"><h4>1KG ₹ 75.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://zamaorganics.com/cdn/shop/files/Untitleddesign_63_380047bd-823d-4de4-8257-c8c37ee8a019.png?v=1703761910&width=1080" alt="Nattu Sarkarai Organic">
+        <h2>NATTU SARKARAI ORGANIC</h2>
+        <p class="price"><h4>1KG ₹ 95.00 </h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+
+    <div class="product">
+        <img src="https://jothiherbals.com/cdn/shop/files/51Ca9rtxCTL.jpg?v=1700056985" alt="Panamkalkandu">
+        <h2>PANAMKALKANDU</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://5.imimg.com/data5/ANDROID/Default/2021/5/CO/YH/FM/76169824/product-jpeg-500x500.jpeg" alt="Mandai Vellam">
+        <h2>MANDAI VELLAM</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-WLgPb_9kc8giPC2k8q57rFk-cAKItEtVQ&usqp=CAU" alt="Achu Vellam">
+        <h2>ACHU VELLAM</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://store.calicutgrocers.com/image/cache/catalog/Products/Oils_Vinegar/Gold_Winner_Oil-500x500.png" alt="Gold Winner Oil">
+        <h2>GOLD WINNER OIL</h2>
+        <p class="price"><h4>1Ltr ₹ 112.00 </h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81ZJPDkNXYL._AC_UF1000,1000_QL80_.jpg" alt="MR.Gold Oil">
+        <h2>MR.GOLD OIL</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/I/51SW5iGfKpL.jpg" alt="Fortune Oil">
+        <h2>FORTUNE OIL</h2>
+        <p class="price"><h4>1Ltr ₹ 115.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://fahadbazar.com/uploads/products/palm-oil-ruchi-gold-031214.webp" alt="Ruchi Gold Oil">
+        <h2>RUCHI GOLD OIL</h2>
+        <p class="price"><h4>1Ltr ₹95.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/WD/KR/OD/31279133/super-gold-sunflower-oil-1-liter-pouch.png" alt="Super Gold Oil">
+        <h2>SUPER GOLD OIL</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://www.vrisham.com/wp-content/uploads/2021/11/groundnut-oil-cp-002.jpg" alt="Woodpressed Groundnut Oil">
+        <h2>WOODPRESSED GROUNDNUT OIL</h2>
+        <p class="price"><h4>1Ltr ₹ 230.00<br>
+                             5Ltr ₹ 1100.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://nrootsfood.com/wp-content/uploads/2021/08/500-sesame-oil-500ml-gingelly-oil-plastic-bottle-sesame-oil-original-imafkbtnzs5bhywd.jpeg" alt="Woodpressed Gingelly Oil">
+        <h2>WOODPRESSED GINGELLY OIL</h2>
+        <p class="price"><h4>1Ltr ₹ 330.00<br>
+                             5Ltr ₹ 1600.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrJIGUqm0UcQaprTkeeodZSs8qzeMFyW36bQ&usqp=CAU" alt="Woodpressed Coconut Oil">
+        <h2>WOODPRESSED COCONUT OIL</h2>
+        <p class="price"><h4>1Ltr ₹ 230.00</h4></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQcRTwvlJzo_5PP76y9r9kdyCC32yubW8aIg&usqp=CAU" alt="Chilli Powder">
+        <h2>CHILLI POWDER</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThXkCKtqwpsCu2t1POXopngyDgSlifhI5YDQ&usqp=CAU" alt="Turmeric Powder">
+        <h2>TURMERIC POWDER</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEQfc8yIk4e1UZtFjHlm7Kn6tgCm1RDSSRxQ&usqp=CAU" alt="Coriander Powder">
+        <h2>CORIANDER POWDER</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuc6pyM3q1l2jpodBUs7bjsJTGNt0KacbW4A&usqp=CAU" alt="Sambar Powder">
+        <h2>SAMBAR POWDER</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSymSVEBFhg-D-6BzNiq93W1MU8JSJSJnyejBIrdIUpaQr_8tGsyS_3xmVLfRxUjM4Q6zA&usqp=CAU" alt="Rasam Powder">
+        <h2>RASAM POWDER</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2023/04/idli-milagai-podi-1.jpg" alt="Idli Powder">
+        <h2>IDLI POWDER</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBd25JVh-7pIUD1P1QUoc0eCaBFE7HvWTVg&usqp=CAU" alt="Dhal / Paruppu Powder">
+        <h2>DHAL/PARUPPU PODI</h2>
+        <p class="price"></p>
+         <button>Add to Cart</button>
+    </div>
+
+    </div>
+
+</body>
+</html>
+    
+
+
+    
+
+
+

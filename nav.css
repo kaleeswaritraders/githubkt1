@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+body{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: navajowhite;
+  backface-visibility: visible;
+  margin:0;
+  height:100vh;
+}
+
+#navbar {
+  width: 100%;
+  background-image:linear-gradient(to right,#292321,#88523c,#664439,#292321);
+  filter:drop-shadow(8px 5px 4px black);
+  opacity:90%;
+  position: static;
+}
+
+#navbar a {
+  float: right;
+  text-align: left;
+  padding: 11px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+#navbar a:hover {
+  background-color: #88523c;
+}
+.active {
+  background-color: #88523c;
+}
+.imgtext{
+  width:30em;
+  display:inline-block;
+  position:absolute;
+  color:white;
+  padding-left:10px;
+  padding-top: 5px;
+  font-family: 'Rajdhani' ;
+  font-size: 15px;
+}
+
